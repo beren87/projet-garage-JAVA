@@ -1,13 +1,18 @@
 package org.example;
 
+import org.example.projo.Garage;
+
 /**
  * Hello world!
  *
  */
 public class App 
 {
-    public static void main( String[] args )
+    public static void main(String[] args)
     {
-        System.out.println( "Hello World!" );
+        //monGarage est une instense de Garage
+        //monGarage est une version de Garage
+        Garage monGarage = new Garage();
+        System.out.println(monGarage);
     }
 }
